@@ -1,0 +1,618 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    /* background-color: lightblue; */
+}
+
+.header {
+    height: 500px;
+    width: 90%;
+    /* background-color: aqua; */
+    margin: auto;
+}
+
+.first-h {
+    height: 50px;
+    width: 90%;
+    margin: auto;
+    background-color: yellow;
+    position: fixed;
+    /* top: 20px; */
+}
+
+.first-h-2 {
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    margin: auto;
+    /* text-align: right; */
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#f-1 {
+    margin: auto;
+    font-size: 20px;
+    color: blue;
+    margin-right: 5px;
+}
+
+#f-2 {
+    margin: auto;
+    font-size: 20px;
+    color: hwb(324 0% 0%);
+}
+
+.first-h-2 h5 {
+    margin: auto;
+    padding-right: 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+
+/* top header part start  */
+
+.top-header {
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(32, 29, 221); */
+    display: flex;
+    flex-direction: row;
+    /* position: fixed; */
+    padding-top: 40px;
+}
+
+.logo {
+    height: 100%;
+    width: 20%;
+    /* background-color: red; */
+}
+
+.logo img {
+    height: 100%;
+    width: 95%;
+    margin: auto;
+}
+
+.menu {
+    height: 30%;
+    width: 80%;
+    /* background-color: brown; */
+    margin: auto;
+    text-align: right;
+}
+
+.menu a {
+    font-size: 24px;
+    text-transform: capitalize;
+    text-decoration: none;
+    /* margin: auto; */
+    padding: 10px 25px;
+    /* background-color: white; */
+}
+
+.menu a:hover {
+    background-color: blue;
+    border-radius: 30px;
+    color: white;
+}
+
+
+/* b-h start  */
+
+.bottom-header {
+    height: 350px;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    /* top: 16%; */
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(15, 14, 14);
+    position: absolute;
+    top: 0%;
+    opacity: calc(.5);
+}
+
+.text {
+    height: 100%;
+    width: 30%;
+    /* background-color: brown; */
+    position: absolute;
+    right: 55%;
+    text-align: justify;
+}
+
+.image-2 {
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(43, 0, 255); */
+    position: absolute;
+    right: 10px;
+    /* top: 10px; */
+    /* left: 100px; */
+}
+
+.image-2 img {
+    height: 90%;
+    width: 90%;
+    margin: auto;
+}
+
+.text h3 {
+    font-size: 25px;
+    text-transform: capitalize;
+    padding-top: 70px;
+    color: white;
+}
+
+.text h3::before {
+    content: "special";
+    color: rgb(18, 243, 228);
+    font-weight: 900;
+}
+
+.text h1 {
+    text-transform: capitalize;
+    color: white;
+}
+
+.text h1::after {
+    content: " for";
+    color: #fff700;
+    font-weight: 900;
+}
+
+.text h2 {
+    text-transform: capitalize;
+    color: white;
+}
+
+.text h2::after {
+    content: "women";
+    color: rgb(30, 255, 0);
+    font-weight: 900;
+}
+
+.text p {
+    padding-top: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.text a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.text a:hover {
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.our-catagory {
+    height: 450px;
+    width: 90%;
+    /* background-color: red; */
+    margin: auto;
+}
+
+.sub-catagory {
+    height: 76%;
+    width: 90%;
+    margin: auto;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text-catagory {
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(22, 130, 225); */
+}
+
+.text-catagory h1 {
+    text-transform: uppercase;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.c-image {
+    height: 300px;
+    width: 23%;
+    margin-top: 10px;
+}
+
+.c-image a :hover {
+    background-color: lightcoral;
+}
+
+.c-image a {
+    text-decoration: none;
+}
+
+.c-image p {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px 20px;
+    background-color: gray;
+    color: white;
+}
+
+.c-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.latest {
+    height: 450px;
+    width: 90%;
+    /* background-color: red; */
+    margin: auto;
+}
+
+.latest-text {
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(81, 229, 22); */
+}
+
+.latest-text h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.sub-latest {
+    height: 350px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.latest-product {
+    height: 100%;
+    width: 22%;
+    text-align: center;
+}
+
+.latest-image {
+    height: 60%;
+    width: 100%;
+}
+
+.latest-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.icon {
+    height: 20px;
+    width: 100%;
+    /* background-color: #fff700; */
+    text-align: center;
+}
+
+.icon i {
+    padding-top: 5px;
+    color: #fff700;
+}
+
+.latest-product p {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.latest-product h2 {
+    color: red;
+    /* text-align: center;  */
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+.latest-product a {
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 5px 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.latest-product a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.discount {
+    height: 400px;
+    width: 90%;
+    background-color: hotpink;
+    margin: auto;
+}
+
+.sub-discount {
+    height: 100%;
+    width: 100%;
+    background-color: lightgrey;
+    margin: auto;
+    /* margin-top: 30px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.discount-image {
+    height: 90%;
+    width: 50%;
+    /* background-color: blue; */
+    margin: auto;
+}
+
+.discount-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.text-discount {
+    height: 90%;
+    width: 50%;
+    /* background-color: red; */
+    margin: auto;
+    text-align: center;
+}
+
+.text-discount h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.text-discount h1::before {
+    content: "weekends";
+    color: red;
+}
+
+.text-discount h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.text-discount h2::after {
+    content: " off";
+    color: red;
+}
+
+.text-discount h3 {
+    padding-top: 100px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.text-discount a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+}
+
+.text-discount a:hover {
+    background-color: hotpink;
+    color: black;
+}
+
+.customer-tesmonial {
+    height: 400px;
+    width: 90%;
+    background-color: lightblue;
+    margin: auto;
+}
+
+.only-testmonial {
+    height: 100px;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+.only-testmonial p {
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.sub-testmonial {
+    height: 300px;
+    width: 95%;
+    margin: auto;
+    /* background-color: #fff700; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.testmonial-1 {
+    height: 100%;
+    width: 30%;
+    /* background-color: aqua; */
+}
+
+.testmonial-1 p {
+    margin-top: 70px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.test-image {
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    float: left;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.test-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.hhh {
+    margin-left: 30px;
+}
+
+.hhh i {
+    color: gold;
+}
+
+.icon-setting {
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    /* background-color: #fff700; */
+}
+
+.sub-setting-s {
+    height: 100%;
+    width: 80%;
+    margin: 20px auto;
+    /* background-color: red; */
+    display: flex;
+}
+
+.sub-setting {
+    width: 30%;
+    height: 90%;
+    margin: 20px auto;
+    background-color: rgb(194, 222, 213);
+    text-align: center;
+}
+
+.sub-setting i {
+    font-size: 100px;
+    border-radius: 50%;
+    padding-top: 10px;
+    color: red;
+}
+
+.sub-setting h3 {
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+
+.sub-setting p {
+    padding-top: 10px;
+}
+
+.footer {
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    background-color: gray;
+    display: flex;
+}
+
+.footer-1 {
+    width: 30%;
+    height: 100%;
+    /* background-color: #fff700; */
+}
+
+.footer-1 h1 {
+    font-size: 32px;
+    text-transform: capitalize;
+    font-weight: 900;
+    padding-top: 50px;
+    color: white;
+}
+
+.footer-1 h3 {
+    margin-left: 30px;
+    color: #fff700;
+}
+
+.icon-footer {
+    width: 5px;
+    float: left;
+    /* margin-top: 10px; */
+}
+
+.icon-footer i {
+    margin-top: 20px;
+    color: gold;
+}
+
+.sa-t {
+    padding-left: 50px;
+    padding-top: 17px;
+    text-transform: capitalize;
+}
+
+.b-icon p {
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.b-icon i {
+    font-size: 24px;
+    margin: 10px;
+    color: blue;
+}
+
+#lol {
+    width: 70px;
+    background-color: red;
+    color: white;
+}
+
+input {
+    width: 180px;
+}
+
+.last-f {
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    background-color: gray;
+}
+
+.last-f p {
+    padding: 50px;
+    text-align: right;
+    text-transform: capitalize;
+}
